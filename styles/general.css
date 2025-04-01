@@ -1,0 +1,39 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  height: 1000px;
+  padding-top: 100px;
+  background-color: rgb(240,240,240);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  position: relative;
+  width: 1070px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+
+.left-menu {
+  width: 200px;
+  height: 30px;
+}
+
+.body-center {
+  width: 670px;
+  height: 1000px;
+  display: inline-block;
+  background-color: white;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
