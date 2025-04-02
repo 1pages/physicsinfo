@@ -83,9 +83,12 @@
   
 }
 
-.current-user-picture {
-  height: 48px;
-  border-radius: 24px;
+.right-section img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
   cursor:pointer;
 }
 
